@@ -1,0 +1,30 @@
+{
+  "name": "atelier-otop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:client": "ts-node-dev src/client/index.ts",
+    "start:server": "ts-node-dev src/server/index.ts",
+    "start:dashboard": "ts-node-dev src/dashboard/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chart.js": "^2.7.53",
+    "@types/node": "^12.0.4",
+    "@types/socket.io": "^2.1.2",
+    "@types/socket.io-client": "^1.4.32",
+    "chart.js": "^2.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "interval-promise": "^1.3.0",
+    "node-os-utils": "^1.0.7",
+    "socket.io": "^2.2.0",
+    "typescript": "^3.5.1"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.39"
+  }
+}
